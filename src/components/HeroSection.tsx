@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function HeroSection() {
   const goDownload = () => {
-    const url = 'https://drive.google.com/file/d/1tbtpAJpIfOSoz1rgBaJgHOTr-21n7KMd/view?usp=drive_link'
+    const url = 'https://drive.google.com/file/d/1nZAkuKofM8V3PzaVY7lpstXE0tHx2Rjv/view?usp=drive_link'
     window.open(url, '_blank')
   }
 

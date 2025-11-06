@@ -6,6 +6,7 @@ import { MdOutlineArrowForwardIos } from "react-icons/md"
 interface CardProps {
   title: string
   image: string
+  framework: string[]
   url?: string
 }
 
@@ -18,6 +19,7 @@ function CardProject(props: CardProps) {
           <div className='font-bold'>
             { props.url && <p className='text-[10px]'>CLICK HERE TO VISIT</p> }
             <p className='text-lg'>{props.title}</p>
+            <p className='font-normal text-sm'>{props.framework.join(', ')}</p>
           </div>
           {
             props.url && <MdOutlineArrowForwardIos />
