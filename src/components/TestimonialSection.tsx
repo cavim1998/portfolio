@@ -6,7 +6,14 @@ function TestimonialSection() {
       <h2 className="text-2xl font-semibold bg-linear-to-t from-green-600 to-green-200 bg-clip-text text-transparent">Testimonial</h2>
       <div className="grid gap-8 md:grid-cols-3 mt-5">
         <div className="bg-gray-700 p-6 rounded-2xl shadow">
-          <Image src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson" width={64} height={64} className="rounded-full mx-auto mb-4" />
+          <Image
+            src="https://randomuser.me/api/portraits/women/44.jpg"
+            alt="Sarah Johnson"
+            width={64}
+            height={64}
+            className="rounded-full mx-auto mb-4"
+            unoptimized
+          />
           <p className="text-white italic">
             &quot;Working with Calvin was an absolute pleasure. He has a great eye for design and always delivers clean, efficient code ahead of schedule.&quot;
           </p>
@@ -15,7 +22,14 @@ function TestimonialSection() {
         </div>
 
         <div className="bg-gray-700 p-6 rounded-2xl shadow">
-          <Image src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Tan" width={64} height={64} className="rounded-full mx-auto mb-4" />
+          <Image
+            src="https://randomuser.me/api/portraits/men/32.jpg"
+            alt="Michael Tan"
+            width={64}
+            height={64}
+            className="rounded-full mx-auto mb-4"
+            unoptimized
+          />
           <p className="text-white italic">
             &quot;He turned our vision into a modern, user-friendly web app that our clients love. Professional, responsive, and highly skilled.&quot;
           </p>
@@ -24,7 +38,14 @@ function TestimonialSection() {
         </div>
 
         <div className="bg-gray-700 p-6 rounded-2xl shadow">
-          <Image src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emily Chen" width={64} height={64} className="rounded-full mx-auto mb-4" />
+          <Image
+            src="https://randomuser.me/api/portraits/women/68.jpg"
+            alt="Emily Chen"
+            width={64}
+            height={64}
+            className="rounded-full mx-auto mb-4"
+            unoptimized
+          />
           <p className="text-white italic">
             &quot;His attention to detail and collaboration skills made the entire development process smooth and enjoyable. Highly recommended!&quot;
           </p>
