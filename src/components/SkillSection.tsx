@@ -9,9 +9,11 @@ import {
 import { BiLogoTypescript } from "react-icons/bi"
 import {
   SiExpress,
-  SiMysql
+  SiMysql,
+  SiNuxtdotjs
 } from "react-icons/si"
 import { VscAzureDevops } from "react-icons/vsc"
+import { TbBrandNextjs } from "react-icons/tb"
 
 function SkillSection() {
   return (
@@ -24,7 +26,9 @@ function SkillSection() {
         <IoLogoJavascript />
         <BiLogoTypescript />
         <IoLogoVue />
+        <SiNuxtdotjs />
         <IoLogoReact />
+        <TbBrandNextjs />
         <SiExpress />
         <SiMysql />
         <IoLogoGithub />

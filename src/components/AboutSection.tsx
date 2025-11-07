@@ -8,7 +8,7 @@ function AboutSection() {
       </p>
 
       <h3 className="mt-10 text-xl font-semibold text-gray-400">Core Skill</h3>
-      <p className="mt-5">JavaScript, VueJs, ReactJs, NodeJs</p>
+      <p className="mt-5">JavaScript, VueJs, Nuxtjs, ReactJs, Nextjs, NodeJs</p>
 
       <h3 className="mt-10 text-xl font-semibold text-gray-400">Key Values</h3>
       <p className="mt-5">Problem-solving mindset, Team collaboration, Curiosity and experimentation</p>
