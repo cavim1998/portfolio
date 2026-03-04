@@ -1,12 +1,12 @@
-import Navbar from "@/components/Navbar"
-import FloatBar from "@/components/FloatBar"
-import HeroSection from "@/components/HeroSection"
-import AboutSection from "@/components/AboutSection"
-import SkillSection from "@/components/SkillSection"
-import ProjectSection from "@/components/ProjectSection"
-import ExperienceSection from "@/components/ExperienceSection"
-import ContactSection from "@/components/ContactSection"
-import TestimonialSection from "@/components/TestimonialSection"
+import Navbar from "@/components/Navbar";
+import FloatBar from "@/components/FloatBar";
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+import SkillSection from "@/components/SkillSection";
+import ProjectSection from "@/components/ProjectSection";
+import ExperienceSection from "@/components/ExperienceSection";
+import ContactSection from "@/components/ContactSection";
+import TestimonialSection from "@/components/TestimonialSection";
 
 function Home() {
   return (
@@ -18,10 +18,10 @@ function Home() {
       <SkillSection />
       <ProjectSection />
       <ExperienceSection />
-      <TestimonialSection />
+      {/* <TestimonialSection /> */}
       <ContactSection />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
