@@ -35,20 +35,20 @@ function ProjectSection() {
     },
     {
       title: "Company Profile Project",
-      image: "/thumbnail_company_profile.png",
+      image: "/thumbnail_company_profile.PNG",
       url: "https://calvin-company-profile-test.vercel.app/",
       framework: ["Nextjs", "ExpressJs"],
     },
     {
       title: "Mini Project",
-      image: "/thumbnail_mini_project.png",
+      image: "/thumbnail_mini_project.PNG",
       url: "https://blog-app-fe-mp.vercel.app/",
       framework: ["Nextjs", "ExpressJs"],
     },
     ,
     {
       title: "Final Project",
-      image: "/thumbnail_final_project.png",
+      image: "/thumbnail_final_project.PNG",
       url: "https://finpro-fe.vercel.app/",
       framework: ["Nextjs", "ExpressJs"],
     },
